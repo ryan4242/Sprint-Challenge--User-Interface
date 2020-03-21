@@ -115,7 +115,6 @@ nav a {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: stretch;
 }
 
 .card {
@@ -163,4 +162,30 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/*  media queries */
+
+@media only screen and (max-width: 600px) {
+    .card-container {
+        flex-wrap: no-wrap;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .card {
+        width: 90%;
+        /* align-items: center; */
+        height: auto;
+    }
+
+    .card img {
+        width: 100%;
+        margin-bottom: 5px;
+    }
+
+    .card button {
+        margin-top: 5px;
+    }
 }

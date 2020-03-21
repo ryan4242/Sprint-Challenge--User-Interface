@@ -96,6 +96,8 @@ nav a {
     margin: 30px 0;
 }
 
+/* main section */
+
 .container {
     width: 800px;
     margin: 0 auto;
@@ -187,6 +189,8 @@ nav a {
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
+
+/* footer */
 
 footer {
     width: 100%;
