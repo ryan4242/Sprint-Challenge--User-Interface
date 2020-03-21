@@ -56,6 +56,8 @@ html, body {
     font-family: 'Roboto', sans-serif;
 }
 
+/* Common Code */
+
 h1, h2, h3, h4, h5 {
     font-size: 18px;
     margin-bottom: 15px;
@@ -64,6 +66,34 @@ h1, h2, h3, h4, h5 {
 
 p {
     line-height: 1.4;
+}
+
+/* Header */
+
+header {
+    width: 800px;
+    margin: 10px auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+nav {
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+ 
+nav a {
+    text-decoration: none;
+    color: #000;
+}
+
+/* top image */
+
+.top-img {
+    margin: 30px 0;
 }
 
 .container {
@@ -104,12 +134,44 @@ p {
 .middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+/* box colors */
+
+.one {
+    background: teal;
+}
+.two {
+    background: gold;;
+}
+.three {
+    background: cadetblue;
+}
+.four {
+    background: coral;
+}
+.five {
+    background: crimson;
+}
+.six {
+    background: forestgreen;
+}
+.seven {
+    background: darkorchid;
+}
+.eight {
+    background: hotpink;
+}
+.nine {
+    background: indigo;
+}
+.ten {
+    background: dodgerblue;
 }
 
 .bottom-content {
